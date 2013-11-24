@@ -21,6 +21,11 @@ Or use the vendor libraries that come with foundation:
 
 	//= require 'vendor/fastclick.js'
 
+Within SASS / Compass you can use the `@import` command to import the foundation sass files:
+
+    @import 'foundation/normalize'
+    @import 'foundation/foundation'
+
 ## Versioning
 
 Every attempt is made to mirror the currently shipping Foundation version number wherever possible.

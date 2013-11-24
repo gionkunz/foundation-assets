@@ -1,33 +1,28 @@
-# angularjs-rails <a href="http://badge.fury.io/rb/angularjs-rails"><img src="https://badge.fury.io/rb/angularjs-rails@2x.png" alt="Gem Version" height="18"></a>
+# Foundation Assets
 
-angularjs-rails wraps the [Angular.js](http://angularjs.org) library for use in Rails 3.1 and above. Assets will minify automatically during production.
+ZURB Foundation Assets to be used with Sprockets
 
 ## Usage
 
 Add the following to your Gemfile:
 
-    gem 'angularjs-rails'
+    gem 'foundation-assets', :git => 'https://github.com/gionkunz/foundation-assets.git'
 
-Add the following directive to your JavaScript manifest file (application.js):
+Add the following directive to your JavaScript file:
 
-    //= require angular
+    //= require 'foundation/foundation'
 
-If you desire to require (optional) Angular files, you may include them as well in your JavaScript manifest file (application.js). For example:
+You can also include the individual Foundation JS files. For example:
 
-	//= require angular-animate
-	//= require angular-resource
+	//= require 'foundation/foundation.joyride'
+	//= require 'foundation/foundation.tab'
 
-To use the 'unstable' branch, add the following directive to your JavaScript manifest file (application.js):
+Or use the vendor libraries that come with foundation:
 
-    //= require unstable/angular
-
-And similarly, for optional Angular assets:
-
-    //= require unstable/angular-bootstrap
-    //= require unstable/angular-resource
+	//= require 'vendor/fastclick.js'
 
 ## Versioning
 
-Every attempt is made to mirror the currently shipping Angular.js version number wherever possible.
+Every attempt is made to mirror the currently shipping Foundation version number wherever possible.
 
-The major, minor, and patch version numbers will always represent the Angular.js version.
+The major, minor, and patch version numbers will always represent the foundation version.

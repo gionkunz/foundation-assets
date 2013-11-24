@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 	s.authors		= ["Gion Kunz"]
 	s.email			= 'gion.kunz@ctp.com'
 	s.files			= Dir["{lib,vendor}/**/*"] + ["README.md"]
-	s.homepage    	= 'https://github.com/gkunz/foundation-assets'
+	s.homepage    	= 'https://github.com/gionkunz/foundation-assets'
 	s.license   = 'MIT'
 
   s.add_development_dependency  'sprockets'

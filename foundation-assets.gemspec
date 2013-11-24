@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 	s.homepage    	= 'https://github.com/gionkunz/foundation-assets'
 	s.license   = 'MIT'
 
-  s.add_development_dependency  'sprockets'
+  s.add_dependency  'sprockets'
 end

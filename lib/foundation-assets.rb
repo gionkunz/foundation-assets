@@ -1,9 +1,9 @@
 require 'foundation-assets/version'
+require 'sprockets'
 
 module Foundation
   module Assets
-    if defined? Sprockets
-      require 'angularjs-rails/sprockets'
-    end
+    Sprockets.append_path File.expand_path('../../vendor/assets/javascript', __FILE__)
+    Sprockets.append_path File.expand_path('../../vendor/assets/scss', __FILE__)
   end
 end

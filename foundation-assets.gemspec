@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 	s.version		= Foundation::Assets::VERSION
 	s.date			=  Time.new.strftime("%Y-%m-%d")
 	s.summary		= 'ZURB Foundation Assets'
-	s.description	= 'ZURB Foundation Assets to be used with Sprocks'
+	s.description	= 'ZURB Foundation Assets to be used with Sprockets'
 	s.authors		= ["Gion Kunz"]
 	s.email			= 'gion.kunz@ctp.com'
 	s.files			= Dir["{lib,vendor}/**/*"] + ["README.md"]
